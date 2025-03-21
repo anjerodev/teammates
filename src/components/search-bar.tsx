@@ -14,7 +14,7 @@ const formSchema = z.object({
   search: z.string(),
 })
 
-const _SearchBar = ({
+const SearchBar = ({
   placeholder,
   defaultValue,
 }: {
@@ -84,6 +84,6 @@ const _SearchBar = ({
   )
 }
 
-const SearchBar = memo(_SearchBar)
+const _SearchBar = memo(SearchBar)
 
-export { SearchBar }
+export { _SearchBar as SearchBar }
