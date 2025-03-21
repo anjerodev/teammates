@@ -11,6 +11,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    website: 'teammates.buildbuddy.one',
+    website: 'https://teammates.anjero.dev',
   },
 }

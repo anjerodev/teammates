@@ -22,7 +22,7 @@ export const ROUTES = {
   PROJECT: (slug: string) => `/projects/${slug}`,
 
   // Externals
-  GITHUB: 'https://github.com/jepricreations/teammates',
+  GITHUB: 'https://github.com/anjerodev/teammates',
 }
 
 export const API_ROUTES = {

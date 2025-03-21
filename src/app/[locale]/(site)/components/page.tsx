@@ -332,7 +332,7 @@ export default function ComponentPage() {
           <SearchBar.RightSection>
             <IconButton variant="standard" className="-mr-2">
               <Avatar className="h-8">
-                <Avatar.Image src="https://github.com/jepricreations.png" />
+                <Avatar.Image src="https://github.com/anjerodev.png" />
                 <Avatar.Fallback>JC</Avatar.Fallback>
               </Avatar>
             </IconButton>
@@ -360,7 +360,7 @@ export default function ComponentPage() {
             <Icons.search />
             <IconButton variant="standard" className="-mr-2">
               <Avatar className="h-8">
-                <Avatar.Image src="https://github.com/jepricreations.png" />
+                <Avatar.Image src="https://github.com/anjerodev.png" />
                 <Avatar.Fallback>JC</Avatar.Fallback>
               </Avatar>
             </IconButton>

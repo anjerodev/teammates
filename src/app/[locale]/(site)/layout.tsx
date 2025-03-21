@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ROUTES } from '@/constants/routes'
 
+import { siteConfig } from '@/config/site'
 import { getDictionary } from '@/lib/dictionaries'
 import { createServerClient } from '@/lib/supabase-server'
 import { Appbar } from '@/components/appbar'
@@ -53,10 +54,10 @@ export default async function SiteLayout({
       </main>
       <footer className="flex items-center justify-center px-6 py-4 md:container sm:justify-between">
         <a
-          href="https://teammates.buildbuddy.one"
+          href={siteConfig.links.website}
           className="block text-onSurface opacity-50 transition-opacity hover:opacity-100"
         >
-          teammates.buildbuddy.one
+          teammates.anjero.dev
         </a>
         <nav className="hidden sm:block">
           <ul className="flex gap-4">
@@ -72,7 +73,7 @@ export default async function SiteLayout({
             ))}
             <li>
               <a
-                href="https://github.com/JepriCreations/teammates"
+                href={ROUTES.GITHUB}
                 className="block text-onSurface opacity-50 transition-opacity hover:opacity-100"
               >
                 Github
